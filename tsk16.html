@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Menu</title>
+  <style>
+    
+    .nav-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: blue;
+    }
+    .nav-menu li {
+      float: left;
+      position: relative;
+    }
+    .nav-menu li a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    
+    .nav-menu li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: rgb(243, 226, 226);
+      padding: 0;
+      margin: 0;
+      border: 1px solid #ccc;
+    }
+    .nav-menu li:hover ul {
+      display: block;
+    }
+    .nav-menu li ul li {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<ul class="nav-menu">
+  <li><a href="#">Home</a></li>
+  <li>
+  
+  </li>
+  <li>
+    <a href="#">Products</a>
+    <ul>
+      <li><a href="#">Product 1</a></li>
+      <li><a href="#">Product 2</a></li>
+      <li><a href="#">Product 3</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Contact</a>
+  <ul>
+    <li><a href="#">80906754</a></li>
+    <li><a href="#">56796356</a></li>
+    <li><a href="#">90753666</a></li>
+  </ul>
+
+</li>
+</body>
+</html>
